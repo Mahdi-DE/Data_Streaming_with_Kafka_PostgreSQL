@@ -33,9 +33,11 @@ Access pgAdmin: Access the pgAdmin web interface via http://localhost:16543.
 All services are connected through a custom Docker network named postgres-db-network, which uses the bridge driver. 
 
 ---------------------------------------------------------------------------------------------------
-Database Configuration File
 
-(Database.ini:) is for a PostgreSQL that contains the necessary details to connect to a PostgreSQL database:
+Configuration Files:
+
+(Database.ini:) 
+This is for a PostgreSQL that contains the necessary details to connect to a PostgreSQL database:
 •	host: The hostname of the PostgreSQL server (localhost).
 •	database: The name of the database (test).
 •	user: The username to connect to the database (postgres).
