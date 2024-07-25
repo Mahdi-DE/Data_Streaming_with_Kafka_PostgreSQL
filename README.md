@@ -1,7 +1,7 @@
 
 The provided Docker Compose file defines a multi-container application setup using Docker. It specifies services for Zookeeper, three Kafka brokers, a PostgreSQL database, and a pgAdmin interface. The services are connected through a shared network called postgres-db-network.
 
-Services Overview:
+\b{Services Overview:}
 
 (Zookeeper:)
 Zookeeper coordinates distributed applications by providing reliable data synchronization. It is crucial for managing the Kafka brokers.
